@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:padding="http://www.w3.org/1999/xhtml" xmlns:width="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="UTF-8">
+  <title>Calc</title>
+</head>
+<body bgcolor="#f0e68c">
+<form>
+  <style>
+    INPUT {
+      background-color: khaki;
+      color: black;
+      width: 70px;
+
+    }
+  </style>
+  <p><center><img src="https://illustrators.ru/uploads/illustration/image/739534/main_739534_original.png"></center></p>
+  <label> <b> <center>  Первое значение </center></b> </label>
+    <center> <input  type="number" name="first"><br> </center>
+
+  <label><b><center>Сложение </center></b></label>
+    <center><input id="+" type="radio" name="operation" value="+"></center><br>
+  <label><b><center>Вычитание </center></b></label>
+      <center> <input id="-" type="radio"  name="operation" value="-"></center><br>
+  <label><b><center>Умножение </center></b></label>
+        <center><input id="*" type="radio"  name="operation" value="*"></center><br>
+  <label><b><center>Деление </center></b></label>
+          <center><input id="/" type="radio"  name="operation" value="/"></center><br>
+
+  <label> <b> <center>Второе значение</center></b> </label>
+    <center> <input type="number" id="second" name="second"></center><br>
+  <center>  <input  type="submit" id=buttonGET name="submit"  formaction="/HOME" value="GET"   formmethod="get" ><br></center>
+  <center><input type="submit" id="buttonPOST" formaction="/HOME" value="POST" formmethod="post" ><br></center>
+
+
+</form>
+</body>
+</html>
